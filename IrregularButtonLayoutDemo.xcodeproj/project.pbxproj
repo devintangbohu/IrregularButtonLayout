@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033C960F25A98BC30027B42E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C960E25A98BC30027B42E /* AppDelegate.m */; };
+		033C961225A98BC30027B42E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C961125A98BC30027B42E /* SceneDelegate.m */; };
+		033C961525A98BC30027B42E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C961425A98BC30027B42E /* ViewController.m */; };
+		033C961825A98BC30027B42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033C961625A98BC30027B42E /* Main.storyboard */; };
+		033C961A25A98BC40027B42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033C961925A98BC40027B42E /* Assets.xcassets */; };
+		033C961D25A98BC40027B42E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033C961B25A98BC40027B42E /* LaunchScreen.storyboard */; };
+		033C962025A98BC40027B42E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C961F25A98BC40027B42E /* main.m */; };
+		033C962A25A98BC40027B42E /* IrregularButtonLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C962925A98BC40027B42E /* IrregularButtonLayoutDemoTests.m */; };
+		033C963525A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C963425A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		033C962625A98BC40027B42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033C960225A98BC30027B42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033C960925A98BC30027B42E;
+			remoteInfo = IrregularButtonLayoutDemo;
+		};
+		033C963125A98BC40027B42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033C960225A98BC30027B42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033C960925A98BC30027B42E;
+			remoteInfo = IrregularButtonLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033C960A25A98BC30027B42E /* IrregularButtonLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrregularButtonLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033C960D25A98BC30027B42E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		033C960E25A98BC30027B42E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		033C961025A98BC30027B42E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		033C961125A98BC30027B42E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		033C961325A98BC30027B42E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		033C961425A98BC30027B42E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		033C961725A98BC30027B42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		033C961925A98BC40027B42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		033C961C25A98BC40027B42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		033C961E25A98BC40027B42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033C961F25A98BC40027B42E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033C962525A98BC40027B42E /* IrregularButtonLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrregularButtonLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033C962925A98BC40027B42E /* IrregularButtonLayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularButtonLayoutDemoTests.m; sourceTree = "<group>"; };
+		033C962B25A98BC40027B42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033C963025A98BC40027B42E /* IrregularButtonLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrregularButtonLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033C963425A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularButtonLayoutDemoUITests.m; sourceTree = "<group>"; };
+		033C963625A98BC40027B42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033C960725A98BC30027B42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033C962225A98BC40027B42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033C962D25A98BC40027B42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033C960125A98BC30027B42E = {
+			isa = PBXGroup;
+			children = (
+				033C960C25A98BC30027B42E /* IrregularButtonLayoutDemo */,
+				033C962825A98BC40027B42E /* IrregularButtonLayoutDemoTests */,
+				033C963325A98BC40027B42E /* IrregularButtonLayoutDemoUITests */,
+				033C960B25A98BC30027B42E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033C960B25A98BC30027B42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033C960A25A98BC30027B42E /* IrregularButtonLayoutDemo.app */,
+				033C962525A98BC40027B42E /* IrregularButtonLayoutDemoTests.xctest */,
+				033C963025A98BC40027B42E /* IrregularButtonLayoutDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033C960C25A98BC30027B42E /* IrregularButtonLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				033C960D25A98BC30027B42E /* AppDelegate.h */,
+				033C960E25A98BC30027B42E /* AppDelegate.m */,
+				033C961025A98BC30027B42E /* SceneDelegate.h */,
+				033C961125A98BC30027B42E /* SceneDelegate.m */,
+				033C961325A98BC30027B42E /* ViewController.h */,
+				033C961425A98BC30027B42E /* ViewController.m */,
+				033C961625A98BC30027B42E /* Main.storyboard */,
+				033C961925A98BC40027B42E /* Assets.xcassets */,
+				033C961B25A98BC40027B42E /* LaunchScreen.storyboard */,
+				033C961E25A98BC40027B42E /* Info.plist */,
+				033C961F25A98BC40027B42E /* main.m */,
+			);
+			path = IrregularButtonLayoutDemo;
+			sourceTree = "<group>";
+		};
+		033C962825A98BC40027B42E /* IrregularButtonLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				033C962925A98BC40027B42E /* IrregularButtonLayoutDemoTests.m */,
+				033C962B25A98BC40027B42E /* Info.plist */,
+			);
+			path = IrregularButtonLayoutDemoTests;
+			sourceTree = "<group>";
+		};
+		033C963325A98BC40027B42E /* IrregularButtonLayoutDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				033C963425A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m */,
+				033C963625A98BC40027B42E /* Info.plist */,
+			);
+			path = IrregularButtonLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033C960925A98BC30027B42E /* IrregularButtonLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033C963925A98BC40027B42E /* Build configuration list for PBXNativeTarget "IrregularButtonLayoutDemo" */;
+			buildPhases = (
+				033C960625A98BC30027B42E /* Sources */,
+				033C960725A98BC30027B42E /* Frameworks */,
+				033C960825A98BC30027B42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrregularButtonLayoutDemo;
+			productName = IrregularButtonLayoutDemo;
+			productReference = 033C960A25A98BC30027B42E /* IrregularButtonLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		033C962425A98BC40027B42E /* IrregularButtonLayoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033C963C25A98BC40027B42E /* Build configuration list for PBXNativeTarget "IrregularButtonLayoutDemoTests" */;
+			buildPhases = (
+				033C962125A98BC40027B42E /* Sources */,
+				033C962225A98BC40027B42E /* Frameworks */,
+				033C962325A98BC40027B42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033C962725A98BC40027B42E /* PBXTargetDependency */,
+			);
+			name = IrregularButtonLayoutDemoTests;
+			productName = IrregularButtonLayoutDemoTests;
+			productReference = 033C962525A98BC40027B42E /* IrregularButtonLayoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		033C962F25A98BC40027B42E /* IrregularButtonLayoutDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033C963F25A98BC40027B42E /* Build configuration list for PBXNativeTarget "IrregularButtonLayoutDemoUITests" */;
+			buildPhases = (
+				033C962C25A98BC40027B42E /* Sources */,
+				033C962D25A98BC40027B42E /* Frameworks */,
+				033C962E25A98BC40027B42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033C963225A98BC40027B42E /* PBXTargetDependency */,
+			);
+			name = IrregularButtonLayoutDemoUITests;
+			productName = IrregularButtonLayoutDemoUITests;
+			productReference = 033C963025A98BC40027B42E /* IrregularButtonLayoutDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033C960225A98BC30027B42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					033C960925A98BC30027B42E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					033C962425A98BC40027B42E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 033C960925A98BC30027B42E;
+					};
+					033C962F25A98BC40027B42E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 033C960925A98BC30027B42E;
+					};
+				};
+			};
+			buildConfigurationList = 033C960525A98BC30027B42E /* Build configuration list for PBXProject "IrregularButtonLayoutDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033C960125A98BC30027B42E;
+			productRefGroup = 033C960B25A98BC30027B42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033C960925A98BC30027B42E /* IrregularButtonLayoutDemo */,
+				033C962425A98BC40027B42E /* IrregularButtonLayoutDemoTests */,
+				033C962F25A98BC40027B42E /* IrregularButtonLayoutDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033C960825A98BC30027B42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033C961D25A98BC40027B42E /* LaunchScreen.storyboard in Resources */,
+				033C961A25A98BC40027B42E /* Assets.xcassets in Resources */,
+				033C961825A98BC30027B42E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033C962325A98BC40027B42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033C962E25A98BC40027B42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033C960625A98BC30027B42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033C961525A98BC30027B42E /* ViewController.m in Sources */,
+				033C960F25A98BC30027B42E /* AppDelegate.m in Sources */,
+				033C962025A98BC40027B42E /* main.m in Sources */,
+				033C961225A98BC30027B42E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033C962125A98BC40027B42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033C962A25A98BC40027B42E /* IrregularButtonLayoutDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033C962C25A98BC40027B42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033C963525A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033C962725A98BC40027B42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033C960925A98BC30027B42E /* IrregularButtonLayoutDemo */;
+			targetProxy = 033C962625A98BC40027B42E /* PBXContainerItemProxy */;
+		};
+		033C963225A98BC40027B42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033C960925A98BC30027B42E /* IrregularButtonLayoutDemo */;
+			targetProxy = 033C963125A98BC40027B42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		033C961625A98BC30027B42E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033C961725A98BC30027B42E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		033C961B25A98BC40027B42E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033C961C25A98BC40027B42E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033C963725A98BC40027B42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		033C963825A98BC40027B42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033C963A25A98BC40027B42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularButtonLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrregularButtonLayoutDemo.https.IrregularButtonLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		033C963B25A98BC40027B42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularButtonLayoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrregularButtonLayoutDemo.https.IrregularButtonLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		033C963D25A98BC40027B42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularButtonLayoutDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrregularButtonLayoutDemo.https.IrregularButtonLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrregularButtonLayoutDemo.app/IrregularButtonLayoutDemo";
+			};
+			name = Debug;
+		};
+		033C963E25A98BC40027B42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularButtonLayoutDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrregularButtonLayoutDemo.https.IrregularButtonLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrregularButtonLayoutDemo.app/IrregularButtonLayoutDemo";
+			};
+			name = Release;
+		};
+		033C964025A98BC40027B42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularButtonLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrregularButtonLayoutDemo.https.IrregularButtonLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrregularButtonLayoutDemo;
+			};
+			name = Debug;
+		};
+		033C964125A98BC40027B42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IrregularButtonLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IrregularButtonLayoutDemo.https.IrregularButtonLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrregularButtonLayoutDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033C960525A98BC30027B42E /* Build configuration list for PBXProject "IrregularButtonLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033C963725A98BC40027B42E /* Debug */,
+				033C963825A98BC40027B42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033C963925A98BC40027B42E /* Build configuration list for PBXNativeTarget "IrregularButtonLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033C963A25A98BC40027B42E /* Debug */,
+				033C963B25A98BC40027B42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033C963C25A98BC40027B42E /* Build configuration list for PBXNativeTarget "IrregularButtonLayoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033C963D25A98BC40027B42E /* Debug */,
+				033C963E25A98BC40027B42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033C963F25A98BC40027B42E /* Build configuration list for PBXNativeTarget "IrregularButtonLayoutDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033C964025A98BC40027B42E /* Debug */,
+				033C964125A98BC40027B42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033C960225A98BC30027B42E /* Project object */;
+}
