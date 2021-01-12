@@ -12,6 +12,8 @@
 @interface ViewController ()
 /** 不规则按钮视图 */
 @property (nonatomic, weak) IrrgularButtonView *btnsView;
+/** 显示选中的文字 */
+@property (nonatomic, weak) UILabel *showTextLab;
 
 @end
 
@@ -37,9 +39,17 @@
     [confirmBtn addTarget:self action:@selector(confirmBtnClick) forControlEvents:UIControlEventTouchUpInside];
     confirmBtn.backgroundColor = [UIColor redColor];
     
+    UILabel *showTextLab = [[UILabel alloc] initWithFrame:CGRectMake(0, confirmBtn.bottom + 30, self.view.width, 50)];
+    showTextLab.backgroundColor = [UIColor yellowColor];
+    showTextLab.textColor = [UIColor blackColor];
+    showTextLab.font = [UIFont systemFontOfSize:16];
+    showTextLab.textAlignment = NSTextAlignmentCenter;
+    self.showTextLab = showTextLab;
+  
+    
     [self.view addSubview:btnsView];
     [self.view addSubview:confirmBtn];
-   
+    [self.view addSubview:showTextLab];
     
 }
 
@@ -47,6 +57,9 @@
 -(void)confirmBtnClick{
     NSLog(@"%@", _btnsView.btnSelStrArr);
     NSLog(@"%@", _btnsView.selAllBtnStr);
+    
+    _showTextLab.text = _btnsView.selAllBtnStr;
+
     
 }
 
