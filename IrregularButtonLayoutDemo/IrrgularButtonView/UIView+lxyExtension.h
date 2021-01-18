@@ -1,5 +1,5 @@
 //
-//  UIView+fitWidthOrHeight.h
+//  UIView+lxyExtension.h
 //  IrregularButtonLayoutDemo
 //
 //  Created by Devin on 2021/1/9.
@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (fitWidthOrHeight)
+@interface UIView (lxyExtension)
 
 // @property在分类中只能生成 get set方法的声明 不会实现也不会生成_成员变量
 /** frame宽度 */

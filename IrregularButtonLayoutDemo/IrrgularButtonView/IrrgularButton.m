@@ -6,6 +6,7 @@
 //
 
 #import "IrrgularButton.h"
+#import "UIView+lxyExtension.h"
 
 @implementation IrrgularButton
 - (instancetype)initWithFrame:(CGRect)frame
@@ -28,7 +29,7 @@
     
     self.backgroundColor = selected ? [UIColor redColor] : [UIColor lightGrayColor];
     [self setTitleColor:selected ? [UIColor whiteColor] : [UIColor blackColor] forState: selected ? UIControlStateSelected : UIControlStateNormal];
-    [self setupRadiu:self.height*0.5];
+    [self setupRadiu:self.frame.size.height*0.5];
 
 }
 

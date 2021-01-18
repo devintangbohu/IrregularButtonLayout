@@ -16,7 +16,7 @@
 		033C962025A98BC40027B42E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C961F25A98BC40027B42E /* main.m */; };
 		033C962A25A98BC40027B42E /* IrregularButtonLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C962925A98BC40027B42E /* IrregularButtonLayoutDemoTests.m */; };
 		033C963525A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C963425A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m */; };
-		033CD57025AD382B002A1A8B /* UIView+fitWidthOrHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CD56925AD382B002A1A8B /* UIView+fitWidthOrHeight.m */; };
+		033CD57025AD382B002A1A8B /* UIView+lxyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CD56925AD382B002A1A8B /* UIView+lxyExtension.m */; };
 		033CD57125AD382B002A1A8B /* IrrgularButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CD56C25AD382B002A1A8B /* IrrgularButtonView.m */; };
 		033CD57225AD382B002A1A8B /* IrrgularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 033CD56D25AD382B002A1A8B /* IrrgularButton.m */; };
 /* End PBXBuildFile section */
@@ -57,13 +57,12 @@
 		033C963025A98BC40027B42E /* IrregularButtonLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrregularButtonLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033C963425A98BC40027B42E /* IrregularButtonLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularButtonLayoutDemoUITests.m; sourceTree = "<group>"; };
 		033C963625A98BC40027B42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		033CD56925AD382B002A1A8B /* UIView+fitWidthOrHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+fitWidthOrHeight.m"; sourceTree = "<group>"; };
-		033CD56A25AD382B002A1A8B /* UIView+fitWidthOrHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+fitWidthOrHeight.h"; sourceTree = "<group>"; };
+		033CD56925AD382B002A1A8B /* UIView+lxyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+lxyExtension.m"; sourceTree = "<group>"; };
+		033CD56A25AD382B002A1A8B /* UIView+lxyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+lxyExtension.h"; sourceTree = "<group>"; };
 		033CD56C25AD382B002A1A8B /* IrrgularButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrrgularButtonView.m; sourceTree = "<group>"; };
 		033CD56D25AD382B002A1A8B /* IrrgularButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IrrgularButton.m; sourceTree = "<group>"; };
 		033CD56E25AD382B002A1A8B /* IrrgularButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrrgularButtonView.h; sourceTree = "<group>"; };
 		033CD56F25AD382B002A1A8B /* IrrgularButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrrgularButton.h; sourceTree = "<group>"; };
-		033CD57625AD3879002A1A8B /* IrregularButtonLayout.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IrregularButtonLayout.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +113,7 @@
 		033C960C25A98BC30027B42E /* IrregularButtonLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				033CD56825AD382B002A1A8B /* Category */,
-				033CD56B25AD382B002A1A8B /* View */,
+				033CD56B25AD382B002A1A8B /* IrrgularButtonView */,
 				033C960D25A98BC30027B42E /* AppDelegate.h */,
 				033C960E25A98BC30027B42E /* AppDelegate.m */,
 				033C961025A98BC30027B42E /* SceneDelegate.h */,
@@ -127,7 +125,6 @@
 				033C961B25A98BC40027B42E /* LaunchScreen.storyboard */,
 				033C961E25A98BC40027B42E /* Info.plist */,
 				033C961F25A98BC40027B42E /* main.m */,
-				033CD57625AD3879002A1A8B /* IrregularButtonLayout.pch */,
 			);
 			path = IrregularButtonLayoutDemo;
 			sourceTree = "<group>";
@@ -150,24 +147,17 @@
 			path = IrregularButtonLayoutDemoUITests;
 			sourceTree = "<group>";
 		};
-		033CD56825AD382B002A1A8B /* Category */ = {
+		033CD56B25AD382B002A1A8B /* IrrgularButtonView */ = {
 			isa = PBXGroup;
 			children = (
-				033CD56925AD382B002A1A8B /* UIView+fitWidthOrHeight.m */,
-				033CD56A25AD382B002A1A8B /* UIView+fitWidthOrHeight.h */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		033CD56B25AD382B002A1A8B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				033CD56C25AD382B002A1A8B /* IrrgularButtonView.m */,
+				033CD56A25AD382B002A1A8B /* UIView+lxyExtension.h */,
+				033CD56925AD382B002A1A8B /* UIView+lxyExtension.m */,
+				033CD56F25AD382B002A1A8B /* IrrgularButton.h */,
 				033CD56D25AD382B002A1A8B /* IrrgularButton.m */,
 				033CD56E25AD382B002A1A8B /* IrrgularButtonView.h */,
-				033CD56F25AD382B002A1A8B /* IrrgularButton.h */,
+				033CD56C25AD382B002A1A8B /* IrrgularButtonView.m */,
 			);
-			path = View;
+			path = IrrgularButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				033CD57025AD382B002A1A8B /* UIView+fitWidthOrHeight.m in Sources */,
+				033CD57025AD382B002A1A8B /* UIView+lxyExtension.m in Sources */,
 				033C961525A98BC30027B42E /* ViewController.m in Sources */,
 				033CD57125AD382B002A1A8B /* IrrgularButtonView.m in Sources */,
 				033C960F25A98BC30027B42E /* AppDelegate.m in Sources */,
@@ -479,7 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 787T7UBDEC;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/IrregularButtonLayoutDemo/IrregularButtonLayout.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = IrregularButtonLayoutDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,7 +489,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 787T7UBDEC;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/IrregularButtonLayoutDemo/IrregularButtonLayout.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = IrregularButtonLayoutDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

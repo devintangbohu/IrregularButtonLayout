@@ -1,13 +1,13 @@
 //
-//  UIView+fitWidthOrHeight.m
+//  UIView+lxyExtension.m
 //  IrregularButtonLayoutDemo
 //
 //  Created by Devin on 2021/1/9.
 //
 
-#import "UIView+fitWidthOrHeight.h"
+#import "UIView+lxyExtension.h"
 
-@implementation UIView (fitWidthOrHeight)
+@implementation UIView (lxyExtension)
 
 // Query other frame locations
 - (CGPoint)bottomRight
